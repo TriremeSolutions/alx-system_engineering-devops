@@ -8,6 +8,12 @@
 
 4-listmorefiles: Displays current directory contents, including hidden files, using the long format.
 
-5-listfilesdigitonly: Displays current directory contents. Long format with user and group IDs displayed numerically, and hidden files.
+5-listfilesdigitonly: Displays current directory contents. Long format with user and group IDs .
 
-6-firstdirectory: Creates a directory named my_first_directory in the /tmp/ directory.
+6-firstdirectory: Creates a directory named my_first_directory in the /tmp/ directory
+
+7-movethatfile: Moves the file "betty" from /tmp/ to /tmp/my_first_directory.
+
+8-firstdelete: Deletes the file "betty" in /tmp/my_first_directory
+
+9-firstdirdeletion: Deletes the directory "my_first_directory" in the /tmp directory.
