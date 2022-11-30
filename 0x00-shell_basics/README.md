@@ -28,5 +28,17 @@
 
 14-copy_html: Creates a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copies files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
+100-lets_move: Moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+101-clean_emacs: Deletes all files in the current working directory that end with the character ~.
+
+102-tree: Creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory. You are only allowed to use two spaces in your script, not more.
+
+103-commas - Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+Directory names should end with a slash (/) Files and directories starting with a dot (.) should be listed The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning Only digits and letters are used to sort; Digits should come first. All files will have at least one letter or one digit and the listing ends with a new line.
+
+School.mgc: Used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+
 
 
